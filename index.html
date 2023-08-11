@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Your Portfolio</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="fullscreen-video">
+        <video autoplay muted loop id="video-bg">
+            <source src="bgvideo.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="video-content">
+            <div class="hero-content">
+                <h1 class="hero-title">Mandeep Singh</h1>
+                <p class="hero-subtitle">Welcome, come on in and explore the world I've crafted.</p>
+                <a href="#contact" class="hero-button">Get in Touch</a>
+            </div>
+        </div>
+    </section>
+    
+    <section id="about">
+        <div class="about-content">
+            <img src="bg1.jpeg" alt="Your Name" class="about-image">
+            <div class="about-text">
+                <h2 class="section-title">About Me</h2>
+                <p>Hey! I'm Mandeep, a curious individual with an insatiable appetite for crafting digital wonders. Developing innovative solutions is where I find my true passion. When I'm not coding, you'll find me exploring the world on a morning run, nurturing my beloved plants, or strolling along the streets, soaking in the charm of the world. I find solace in witnessing the beauty of sunsets, losing myself in the melodies of music, and immersing in captivating stories through reading. Feel free to join me on this journey of creation and exploration.</p>
+                <p class="about-description">That's me, and I click way too many mirror selfies. Here's my one of only few pictures ie <span class="about-highlight">not a mirror selfie</span> 😄</p>
+            </div> 
+        </div>
+
+    
+->
+
+<section id="about">
+    <div class="about-content">
+        <div class="about-boxes">
+            <div class="about-box" style="background-image: url('b1.jpeg');">
+                <h3>Reading</h3>
+               <p>Books serve as my sanctuary, nurturing my imagination through Agatha Christie's intricate mysteries and the enchanting tales of Harry Potter's magical world. In 'On Earth We're Briefly Gorgeous' and 'The Bell Jar', I explore profound insights into the complexities of human existence. From the pages of classic literature to contemporary works, allowing me to traverse diverse landscapes of emotions and ideas. The written word is not just a source of knowledge but a boundless realm where I find solace, inspiration, and a deeper understanding of the human spirit.</p>
+
+                <a href="https://www.meetnewbooks.com/suggest-book/47439/On-Earth-We-re-Briefly-Gorgeous-Ocean-Vuong#:~:text=Giovanni%27s%20Room&text=Set%20among%20the%20bohemian%20bars,fiction%22%20(The%20Atlantic)." class="about-box-link" onclick="showPopup('reading')">Recommendations</a>
+            </div>
+            <div class="about-box" style="background-image: url('r1.jpeg');">
+                <h3>Running</h3>
+                <p>Running is an enduring passion, intricately woven into the fabric of my life. From excelling as a state athlete in high school to clinching 17th place at the Pride and Remembrance run in Toronto, running epitomizes my journey of personal triumph. The vibrant "Queer run club" in Toronto connects me with fellow queer runners, whose inspirations fuel my aspirations. Geared for the Niagara half marathon this September, I'm determined to conquer a full marathon by year-end. Here is he link to my Strava profile where you can connect with me!! Let's hit those trails.</p>
+
+                <a href="https://www.strava.com/athletes/116031011" class="about-box-link" onclick="showPopup('running')">Strava profile</a>
+            </div>
+            <div class="about-box" style="background-image: url('Hozier.jpeg');">
+                <h3>Music</h3>
+                <p>Embarking on a soul-enriching odyssey, I wholeheartedly embrace the symphony of alternate and folk etc. The essence of audacious artists who intertwine boldness and significance resonates deeply, from Amy Winehouse's soulful rhythms to Hozier's ethereal melodies. Billie Eilish's rebellious spirit and Taylor Swift's narrative prowess inspire me. My playlist encompasses Ali Sethi's soulful renditions, captivating ghazals, and the vibrant rhythms of Bollywood. Connecting with fellow swifties at Era's Toronto tour would be a delightful melody! Here is the spotify link.</p>
+
+                <a href="https://open.spotify.com/track/10Wtj4WHh9APnWq5q21NDT?si=nC-UMWuvRJqNcqAUTzuVqg" class="about-box-link" onclick="showPopup('music')">spotify link</a>
+            </div>
+        </div>
+    </div>
+    -->
+</section>
+
+
+
+    
+    <section id="skills">
+        <h2 class="section-title">Skills</h2>
+        <ul class="skill-list">
+            <li>HTML</li>
+
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>C++</li>
+            <li>GitHuB</li>
+            <li>Adobe Creative Cloud</li>
+        </ul>
+    </section>
+
+
+    <section id="projects">
+        <h2 class="section-title">Projects</h2>
+        <div class="project-grid">
+       
+            <div class="project">
+                <img src="p1.jpeg" alt="Project 1">
+                <div class="project-details">
+                    <h3 class="project-title">Jaipuri Junction Antiques</h3>
+                    <p>Embark on a visual journey through Rajasthan's cultural heritage with our website showcasing exquisite handmade goods. Immerse in vibrant colors, intricate craftsmanship, and zoom in to capture details. Add to your cart, review the bill, and own a piece of Rajasthan's charm delivered worldwide.</p>
+                      <a href="https://thriving-starburst-6ad059.netlify.app" class="project-link" onclick="showModal('project1')">View Project</a>
+                </div>
+            </div>
+            
+            <div class="project">
+                <img src="p2.jpeg" alt="Project 2">
+                <div class="project-details">
+                    <h3 class="project-title">The mother of dragons</h3>
+                    <p>Explore the captivating life and character of Daenerys Targaryen through our descriptive website. Navigate through her journey, traits, and view her evocative images. Our intuitive navigation elements ensure a seamless exploration of the Mother of Dragons' legacy."</p> 
+                    <a href="https://verdant-sawine-96341a.netlify.app" class="project-link">View Project</a>
+                </div>
+            </div>
+    
+            <div class="project">
+                <img src="p4.jpeg" alt="Project 3">
+                <div class="project-details">
+                    <h3 class="project-title">Musical Light show</h3>
+                    <p>I created an Arduino-powered musical light show by integrating sound-reactive features. Using sensors, buttons, and a user interface, I designed an interactive experience. Users can select patterns and synchronize lights to music, enhancing the ambiance with a personalized touch.</p>
+                    <a href="https://github.com" class="project-link">View Project</a>
+                </div>
+            </div>
+    
+
+        </div>
+
+        <div class="project-grid-2">
+           
+            <div class="project">
+                <img src="p3.jpeg" alt="Project 4">
+                <div class="project-details">
+                    <h3 class="project-title">The Petal philosophy</h3>
+                    <p>Crafted a charming petal shop website with a delightful interface. Showcases a stunning array of petals for various occasions. Users can easily browse, select, and customize orders. The site combines elegance and convenience, making petal shopping an enchanting online experience.</p>
+                    <a href="https://admirable-yeot-bf543d.netlify.app/#" class="project-link" onclick="showModal('project4')">View Project</a>
+                </div>
+            </div>
+    
+            <div class="project">
+                <img src="p6.jpeg" alt="Project 5">
+                <div class="project-details">
+                    <h3 class="project-title">Wanderlust travels</h3>
+                    <p>Executed a dynamic CSS project, 'Wanderlust Travels,' portraying an enticing travel agency website. Integrated captivating visuals, smooth animations, and responsive design. Navigating through enticing destinations is seamless. The project blends creativity and functionality, inviting users to embark on their dream journeys.</p>
+                    <a href="file:///Users/sannamattoo/Desktop/Mandeep/CSS/A2/index.html#" class="project-link" onclick="showModal('project5')">View Project</a>
+                </div>
+            </div>
+
+            <div class="project">
+                <img src="p5.jpeg" alt="Project 4">
+                <div class="project-details">
+                    <h3 class="project-title">Shapescapper</h3>
+                    <p>Crafted an immersive text-based math game. Players navigate a maze by solving math puzzles at each step. Strategic calculations unlock pathways, challenging both mind and wit. A unique blend of gaming and learning, it offers an engaging journey through numbers and logic, making each move count.</p>
+                    <a href="https://github.com" class="project-link" onclick="showModal('project4')">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+<section id="contact">
+    <h2 class="section-title">Contact Me</h2>
+    <p>If you'd like to collaborate or just say hello, feel free to reach out to me.</p>
+    <p>I'm always excited to connect with fellow developers and professionals.</p>
+    <p>Email: <a href="mailto:mandeepsingh220103@gmail.com">mandeepsingh220103@gmail.com</a></p>
+</section>
+
+<footer>
+    <div class="footer-content">
+        <div class="social-icons">
+            <a href="https://twitter.com" class="social-icon"><img src="con1.jpeg" alt="Instagram"></a>
+            <a href="https://www.instagram.com" class="social-icon"><img src="con2.jpeg" alt="Twitter"></a>
+            <a href="https://github.com/mandeepgit2156/HTML-project-/blob/main/Styles/style.css" class="social-icon"><img src="con3.jpeg" alt="GitHub"></a>
+        </div>
+        <p>&copy; 2023 Mandeep Singh. All rights reserved.</p>
+    </div>
+</footer>
+
+</body>
+</html>
+
